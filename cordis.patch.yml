@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-system-notifications
+      name: 'dsh-system-notifications'
+      config: {}

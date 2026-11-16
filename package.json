@@ -1,0 +1,50 @@
+{
+  "name": "dsh-system-notifications",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "System notifications for DeepSeek Harness: turn completion, approval requests, and questions, with independent switches.",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "dsh",
+    "notifications",
+    "desktop",
+    "approval",
+    "productivity"
+  ],
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "index.js",
+    "client.js",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "*"
+  },
+  "icon": "./icon.svg",
+  "homepage": "https://github.com/hexiao160705-dev/dsh-system-notifications#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexiao160705-dev/dsh-system-notifications.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hexiao160705-dev/dsh-system-notifications/issues"
+  }
+}
