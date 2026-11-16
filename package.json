@@ -24,7 +24,8 @@
     "client.js",
     "icon.svg",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "scripts/test.mjs"
   ],
   "dsh": {
     "bundle": {
@@ -46,5 +47,8 @@
   },
   "bugs": {
     "url": "https://github.com/hexiao160705-dev/dsh-system-notifications/issues"
+  },
+  "scripts": {
+    "test": "node scripts/test.mjs"
   }
 }
