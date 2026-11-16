@@ -22,7 +22,9 @@ DSH currently shows an in-app “completed” dot for background sessions, but i
 
 From GitHub:
 
-
+```bash
+dsh plugin --profile desktop add github:hexiao160705-dev/dsh-system-notifications
+```
 
 From a checkout:
 
