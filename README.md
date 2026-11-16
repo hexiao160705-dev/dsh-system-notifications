@@ -20,13 +20,17 @@ DSH currently shows an in-app “completed” dot for background sessions, but i
 
 ## Install
 
+From GitHub:
+
+
+
 From a checkout:
 
 ```bash
 dsh plugin --profile desktop add /absolute/path/to/dsh-system-notifications
 ```
 
-Or in DSH: **Plugins → Add plugin**, enter `dsh-system-notifications` after it is published, or pick the local directory.
+Or in DSH: **Plugins → Add plugin** and enter the GitHub spec above, or pick the local directory. The package is not published to npm yet.
 
 Then reload/restart DSH. Open **Settings → System notifications** to grant notification permission and choose which events should notify.
 
